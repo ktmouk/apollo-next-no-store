@@ -9,12 +9,15 @@
     "@apollo/client": "^3.11.10",
     "@apollo/experimental-nextjs-app-support": "^0.11.6",
     "graphql": "^16.9.0",
-    "next": "14.2.18",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4",
   "devDependencies": {
-    "@types/react": "18.3.12"
+    "@types/react": "npm:types-react@19.0.0-rc.1"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1"
   }
 }
